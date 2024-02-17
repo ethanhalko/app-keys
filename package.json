@@ -6,22 +6,42 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
+    "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@iconify-json/mdi": "^1.1.64",
+    "@storybook/addon-essentials": "^7.6.16",
+    "@storybook/addon-interactions": "^7.6.16",
+    "@storybook/addon-links": "^7.6.16",
+    "@storybook/addon-onboarding": "^1.0.11",
+    "@storybook/addon-styling-webpack": "^0.0.6",
+    "@storybook/blocks": "^7.6.16",
+    "@storybook/nextjs": "^7.6.16",
+    "@storybook/react": "^7.6.16",
+    "@storybook/test": "^7.6.16",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@unocss/postcss": "^0.58.5",
+    "@unocss/preset-icons": "^0.58.5",
     "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
+    "css-loader": "^6.10.0",
     "eslint": "^8",
-    "eslint-config-next": "14.1.0"
+    "eslint-config-next": "14.1.0",
+    "eslint-plugin-storybook": "^0.8.0",
+    "postcss": "^8",
+    "postcss-loader": "^8.1.0",
+    "storybook": "^7.6.16",
+    "style-loader": "^3.3.4",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5",
+    "unocss": "^0.58.5"
   }
 }

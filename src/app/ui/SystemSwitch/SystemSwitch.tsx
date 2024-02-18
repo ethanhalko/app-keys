@@ -1,7 +1,7 @@
 import {Switch} from '@headlessui/react';
 import styles from './SystemSwitch.module.css';
 
-export default function SystemSwitch({system, onChange}: { system: 'mac' | 'windows' | string, onChange: () => void }) {
+export default function SystemSwitch({system, onChange}: { system: 'mac' | 'windows' | string, onChange: (checked: boolean) => void }) {
   return (
     <div className={'flex'}>
       <span className={'i-mdi:apple-finder text-2xl my-auto'} title={'MacOS'} aria-label={'MacOS'}/>

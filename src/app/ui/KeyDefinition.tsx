@@ -13,11 +13,11 @@ export const KeyDefinition = ({keyData}: KeyDefinitionProps) => {
   const keyMap = Array.isArray(keyData.keyCodes) ? keyData.keyCodes : keyData.keyCodes[searchParams.get('os') || 'mac'];
 
   return (
-    <div className={'flex flex-col'}>
-      <div className={'text-base m-auto text-neutral-600 py-8 text-center'}>{keyData.description}</div>
-      <div className={'flex mx-auto'}>
+    <div className={'flex justify-between border-b-2 px-2'}>
+      <div className={'text-sm my-auto text-neutral-600 py-8 px-2'}>{keyData.description}</div>
+      <div className={'flex my-auto'}>
         {
-          keyMap.map((k, i) => <MappedIcon key={k} keyChar={k} last={i + 1 === keyMap.length}/>)
+          keyMap.map((k, i) => <MappedIcon key={`${k}-${i}`} keyChar={k} last={i + 1 === keyMap.length}/>)
         }
       </div>
     </div>

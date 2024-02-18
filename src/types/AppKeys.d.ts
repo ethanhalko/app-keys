@@ -12,7 +12,7 @@ export interface Section {
 export interface App {
   id: number;
   name: string;
-  developer: string;
+  organization: string;
   description?: string;
   logo?: string;
   sections: Section[]

@@ -1,10 +1,21 @@
-import Image from 'next/image'
+'use client'
 import {find} from '@/api/keys';
 import {App} from '@/types/AppKeys';
+import Image from 'next/image'
 import Section from '@/app/ui/Section';
+import {usePathname, useSearchParams, useRouter} from 'next/navigation';
+import SystemSwitch from '@/app/ui/SystemSwitch/SystemSwitch';
 
 export default function Page({params}: { params: { app: number } }) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const pathname = usePathname();
   const data = find(1) || {} as App;
+  const os = searchParams.get('os') || 'mac';
+
+  function setOs() {
+    router.push(pathname + `?os=${os === 'mac' ? 'windows' : 'mac'}`, {scroll: false});
+  }
 
   return (
     <>
@@ -16,8 +27,7 @@ export default function Page({params}: { params: { app: number } }) {
       </div>
       <h1 className={'font-light text-neutral-500 my-8 text-4xl'}>{data.name}</h1>
       <div className={'flex mb-8 gap-4'}>
-        <span className={'i-mdi:apple-finder'}></span>
-        <span className={'i-mdi:microsoft-windows-classic'}></span>
+        <SystemSwitch system={os} onChange={setOs}/>
       </div>
       {
         data.sections.map(section => <Section key={section.name} sectionData={section}/>)

@@ -23,9 +23,12 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
           </Link>
           <div className={'text-sm font-light italic'}>
             Made by&nbsp;
-            <Link href={'https://ethanhalko.com'} title={'ethanhalko.com'} className={'underline underline-offset-2 decoration-1 text-slate-700'}>
+            <a href={'https://ethanhalko.com'}
+               title={'ethanhalko.com'}
+               className={'underline underline-offset-2 decoration-1 text-slate-700'}
+               target={'_blank'}>
               Ethan Halko
-            </Link>
+            </a>
             &nbsp;in the year 2024
           </div>
         </div>

@@ -23,7 +23,10 @@ export default function Home() {
       </section>
       <section className={'my-12'}>
         <p className={'text-xl font-light text-neutral-700 border border-neutral-400 rounded-sm p-6 bg-slate-100'}>
-          Under development! Come back later or check out the <Link className={'underline underline-offset-2 hover:underline-offset-4 transition-all decoration-1 text-slate-700'} href={'https://github.com/ethanhalko/app-keys'}>codebase!</Link>
+          Under development! Come back later or check out the&nbsp;
+          <a className={'underline underline-offset-2 hover:underline-offset-4 transition-all decoration-1 text-slate-700'}
+             href={'https://github.com/ethanhalko/app-keys'}
+             target={'_blank'}>codebase!</a>
         </p>
       </section>
       <section className={'body w-full flex my-12'}>

@@ -1,3 +1,5 @@
+'use client';
+
 import KeyIcon from './KeyIcon';
 import React from 'react';
 
@@ -8,10 +10,10 @@ const iconMap: Record<string, string> = {
   'shift': 'i-mdi:apple-keyboard-shift',
   'fn': 'i-mdi:function'
 }
-export default function MappedIcon(key: string, last: boolean) {
-  const char = iconMap[key] ? <span className={iconMap[key]}/> : key;
+export default function MappedIcon({keyChar, last}: {keyChar: string, last: boolean}) {
+  const char = iconMap[keyChar] ? <span className={iconMap[keyChar]}/> : keyChar?.toUpperCase();
   return (
-    <React.Fragment key={key}>
+    <React.Fragment key={keyChar}>
       <KeyIcon char={char}/>
       {
         !last && <div className={'text-3xl my-auto px-2'}>+</div>

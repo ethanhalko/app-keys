@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { KeyDefinition } from './KeyDefinition';
+import { KeyDefinition } from '../../app/ui/KeyDefinition';
 
 // More on how to set up stories at: https://storybook.js.org/docs/writing-stories#default-export
 const meta = {
@@ -20,6 +20,6 @@ type Story = StoryObj<typeof meta>;
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
 export const Primary: Story = {
   args: {
-    keyData: { keyCodes: ['cmd', 'd'], description: 'Duplicate current line', label: 'Duplicate Line' }
+    keyData: { keyCodes: ['cmd', 'd'], description: 'Duplicate current line' }
   },
 };

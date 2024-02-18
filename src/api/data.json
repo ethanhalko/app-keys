@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "name": "Fusion 360",
+    "organization": "Autodesk",
+    "description": "lorem ipsum, etc",
+    "logo": "autodesk-fusion-360-logo.png",
+    "sections": [
+      {
+        "name": "Tools",
+        "keys": [
+          {
+            "description": "Extrude",
+            "keyCodes": [
+              "e"
+            ]
+          },
+          {
+            "description": "Hole",
+            "keyCodes": [
+              "h"
+            ]
+          },
+          {
+            "description": "Press Pull",
+            "keyCodes": [
+              "q"
+            ]
+          },
+          {
+            "description": "Model Fillet",
+            "keyCodes": [
+              "f"
+            ]
+          },
+          {
+            "description": "Move",
+            "keyCodes": [
+              "m"
+            ]
+          },
+          {
+            "description": "Toggle Visbility",
+            "keyCodes": [
+              "v"
+            ]
+          },
+          {
+            "description": "Display Component Colors",
+            "keyCodes": [
+              "shift",
+              "n"
+            ]
+          },
+          {
+            "description": "Model Toolbox",
+            "keyCodes": [
+              "s"
+            ]
+          },
+          {
+            "description": "Appearance",
+            "keyCodes": [
+              "a"
+            ]
+          },
+          {
+            "description": "Compute All",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "b"
+              ],
+              "mac": [
+                "cmd",
+                "b"
+              ]
+            }
+          },
+          {
+            "description": "Joint",
+            "keyCodes": [
+              "j"
+            ]
+          },
+          {
+            "description": "As-built Joint",
+            "keyCodes": [
+              "shift",
+              "j"
+            ]
+          },
+          {
+            "description": "Line",
+            "keyCodes": [
+              "l"
+            ]
+          },
+          {
+            "description": "2-point Rectangle",
+            "keyCodes": [
+              "r"
+            ]
+          },
+          {
+            "description": "Center Diameter Circle",
+            "keyCodes": [
+              "c"
+            ]
+          },
+          {
+            "description": "Trim",
+            "keyCodes": [
+              "t"
+            ]
+          },
+          {
+            "description": "Offset",
+            "keyCodes": [
+              "o"
+            ]
+          },
+          {
+            "description": "Measure",
+            "keyCodes": [
+              "i"
+            ]
+          },
+          {
+            "description": "Project",
+            "keyCodes": [
+              "p"
+            ]
+          },
+          {
+            "description": "Normal / Construction",
+            "keyCodes": [
+              "x"
+            ]
+          },
+          {
+            "description": "Sketch Dimension",
+            "keyCodes": [
+              "d"
+            ]
+          },
+          {
+            "description": "Sketch Coincident Constraint at Midpoint",
+            "keyCodes": [
+              "shift"
+            ]
+          },
+          {
+            "description": "Scripts and Add-ins",
+            "keyCodes": [
+              "shift",
+              "s"
+            ]
+          },
+          {
+            "description": "Window Selection",
+            "keyCodes": [
+              "1"
+            ]
+          },
+          {
+            "description": "Freeform Selection",
+            "keyCodes": [
+              "2"
+            ]
+          },
+          {
+            "description": "Paint Selection",
+            "keyCodes": [
+              "3"
+            ]
+          },
+          {
+            "description": "Delete",
+            "keyCodes": [
+              "del"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

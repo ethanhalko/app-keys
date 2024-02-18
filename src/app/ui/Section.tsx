@@ -11,7 +11,7 @@ export default function Section({sectionData}: { sectionData: Section }) {
   return (
     <div className={'w-full sm:w-3/4'}>
       <h2 className={'bg-neutral-100 text-center sm:text-left text-3xl text-neutral-700 mx-auto bg-inherit cursor-pointer'} onClick={() => setShowSection(!showSection)}>
-        <div className={'mx-auto border-b-2'}>
+        <div className={'mx-auto border-b-2 my-2'}>
           {sectionData.name}
           <span className={`${showSection ? 'i-mdi:chevron-down' : 'i-mdi:chevron-right'} align-middle`}/>
         </div>

@@ -8,7 +8,7 @@ const iconMap: Record<string, string> = {
   'opt': 'i-mdi:apple-keyboard-option',
   'ctrl': 'i-mdi:apple-keyboard-control',
   'shift': 'i-mdi:apple-keyboard-shift',
-  'fn': 'i-mdi:function'
+  'fn': 'i-mdi:function',
 }
 export default function MappedIcon({keyChar, last = true}: {keyChar: string, last?: boolean}) {
   const char = iconMap[keyChar] ? <span className={iconMap[keyChar]}/> : keyChar?.toUpperCase();

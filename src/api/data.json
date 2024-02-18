@@ -182,6 +182,183 @@
             ]
           }
         ]
+      },
+      {
+        "name": "System",
+        "keys": [
+          {
+            "description": "New Design",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "N"
+              ],
+              "mac": [
+                "cmd",
+                "N"
+              ]
+            }
+          },
+          {
+            "description": "Open",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "O"
+              ],
+              "mac": [
+                "cmd",
+                "O"
+              ]
+            }
+          },
+          {
+            "description": "Save (Version)",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "S"
+              ],
+              "mac": [
+                "cmd",
+                "S"
+              ]
+            }
+          },
+          {
+            "description": "Recovery Save",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "shift",
+                "S"
+              ],
+              "mac": [
+                "cmd",
+                "shift",
+                "S"
+              ]
+            }
+          },
+          {
+            "description": "Cycle open document tabs",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "Tab"
+              ],
+              "mac": [
+                "cmd",
+                "Tab"
+              ]
+            }
+          },
+          {
+            "description": "Show/Hide ViewCube",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "alt",
+                "V"
+              ],
+              "mac": [
+                "opt",
+                "cmd",
+                "V"
+              ]
+            }
+          },
+          {
+            "description": "Show/Hide Browser",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "alt",
+                "B"
+              ],
+              "mac": [
+                "opt",
+                "cmd",
+                "B"
+              ]
+            }
+          },
+          {
+            "description": "Show/Hide Comments",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "alt",
+                "A"
+              ],
+              "mac": [
+                "opt",
+                "cmd",
+                "A"
+              ]
+            }
+          },
+          {
+            "description": "Show/Hide Text cmds",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "alt",
+                "C"
+              ],
+              "mac": [
+                "opt",
+                "cmd",
+                "C"
+              ]
+            }
+          },
+          {
+            "description": "Show/Hide Navigation bar",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "alt",
+                "N"
+              ],
+              "mac": [
+                "opt",
+                "cmd",
+                "N"
+              ]
+            }
+          },
+          {
+            "description": "Show/Hide Data Panel",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "alt",
+                "P"
+              ],
+              "mac": [
+                "opt",
+                "cmd",
+                "P"
+              ]
+            }
+          },
+          {
+            "description": "Reset to Default Layout",
+            "keyCodes": {
+              "windows": [
+                "ctrl",
+                "alt",
+                "R"
+              ],
+              "mac": [
+                "opt",
+                "cmd",
+                "R"
+              ]
+            }
+          }
+        ]
       }
     ]
   }

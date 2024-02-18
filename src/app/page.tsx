@@ -12,22 +12,25 @@ export default function Home() {
 
   return (
     <>
-      <section className={'header flex w-full border-b border-neutral-400 h-36'}>
+      <section className={'header flex flex-col w-full border-b border-neutral-400 h-36'}>
         <div className={'flex m-auto'}>
-          <div className={'text-5xl my-auto mx-1'}>H</div>
           <MappedIcon keyChar={'cmd'}/>
-          <div className={'text-5xl my-auto ml-1 mr-8'}>t</div>
+          <div className={'text-4xl my-auto mx-1'}>+</div>
           <KeyIcon char={'K'}/>
-          <div className={'text-5xl my-auto ml-1'}>eys</div>
         </div>
+        <h1 className={'m-auto text-sm tracking-widest italic text-light'}>hotkeys.lol</h1>
       </section>
-      <section className={'my-12'}>
-        <p className={'text-xl font-light text-neutral-700 border border-neutral-400 rounded-sm p-6 bg-slate-100'}>
-          Under development! Come back later or check out the&nbsp;
-          <a className={'underline underline-offset-2 hover:underline-offset-4 transition-all decoration-1 text-slate-700'}
-             href={'https://github.com/ethanhalko/app-keys'}
-             target={'_blank'}>codebase!</a>
-        </p>
+      <section className={'my-12 flex items-center'}>
+        <p className={'text-9xl my-auto'}>(</p>
+        <div>
+          <p className={'my-auto tracking-widest text-sm font-light text-neutral-700 text-center leading-7 mt-2 mx-3'}>
+            This is a placeholder landing page.
+            <br/>This site is extremely under development.
+            <br/>Come back later if you want.
+          </p>
+          <p className={'my-auto text-neutral-500 font-light italic text-xs text-center'}>...no worries if not.</p>
+        </div>
+        <p className={'text-9xl my-auto'}>)</p>
       </section>
       <section className={'body w-full flex my-12'}>
         <ul className={'mx-auto grid grid-cols-4 gap-16'}>

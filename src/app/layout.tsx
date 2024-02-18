@@ -6,7 +6,7 @@ import Link from 'next/link';
 const roboto = Roboto({subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"]});
 
 export const metadata: Metadata = {
-  title: "App Keys",
+  title: "hotkeys.lol",
   description: "A cheat sheet for all your application hotkeys",
 };
 

@@ -11,9 +11,9 @@ interface KeyDefinitionProps {
 export const KeyDefinition = ({keyData}: KeyDefinitionProps) => {
   const searchParams = useSearchParams();
   const keyMap = Array.isArray(keyData.keyCodes) ? keyData.keyCodes : keyData.keyCodes[searchParams.get('os') || 'mac'];
-
+  const label = `${keyData.description}: ${keyMap.join(' + ')}`;
   return (
-    <div className={'flex justify-between border-b-2 px-2'}>
+    <div className={'flex justify-between border-b-2 px-2'} aria-label={label}>
       <div className={'text-sm my-auto text-neutral-600 py-8 px-2'}>{keyData.description}</div>
       <div className={'flex my-auto'}>
         {

@@ -33,7 +33,7 @@ export default function Home() {
         <p className={'text-9xl my-auto'}>)</p>
       </section>
       <section className={'body w-full flex my-12'}>
-        <ul className={'mx-auto grid grid-cols-4 gap-16'}>
+        <ul className={'mx-auto grid grid-cols-4 gap-8 sm:gap-16'}>
           {
             data.map((app) => <AppIcon key={app.id} app={app}/>)
           }

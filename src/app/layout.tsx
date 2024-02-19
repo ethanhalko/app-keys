@@ -34,6 +34,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
         </div>
       </div>
     </main>
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "1bd0d23e22db4afb86433f517c712ba7"}'></script>
     </body>
     </html>
   );

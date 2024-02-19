@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <p className={'text-9xl my-auto'}>)</p>
       </section>
-      <section className={'body w-full flex my-12'}>
+      <section className={'body w-full flex flex-col my-12'}>
         <ul className={'mx-auto grid grid-cols-4 gap-8 sm:gap-16'}>
           {
             data.map((app) => <AppIcon key={app.id} app={app}/>)
@@ -42,6 +42,11 @@ export default function Home() {
             placeholders.map(p => p)
           }
         </ul>
+        <a href={'https://github.com/ethanhalko/hotkeys.lol/issues/new?labels=request&template=feature_request.md&title=%5BREQUEST%5D'}
+           className={'text-center font-light text-neutral-500 text-xs italic pt-12 underline hover:underline-offset-2'}
+           target={'_blank'}>
+          Make a request!
+        </a>
       </section>
     </>
   );

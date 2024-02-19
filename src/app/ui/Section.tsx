@@ -9,7 +9,7 @@ import {Transition} from '@headlessui/react';
 export default function Section({sectionData}: { sectionData: Section }) {
   const [showSection, setShowSection] = useState(true);
   return (
-    <div className={'w-full sm:w-3/4'}>
+    <div className={'w-full sm:w-5/6 max-w-7xl'}>
       <h2 className={'bg-neutral-100 text-center sm:text-left text-3xl text-neutral-700 mx-auto bg-inherit cursor-pointer'} onClick={() => setShowSection(!showSection)}>
         <div className={'mx-auto border-b-2 my-2'}>
           {sectionData.name}
@@ -26,7 +26,7 @@ export default function Section({sectionData}: { sectionData: Section }) {
           leaveFrom="relative"
           leaveTo="-translate-y-full"
         >
-          <div className={`grid grid-cols-1 sm:grid-cols-2 py-8`}>
+          <div className={`grid grid-cols-1 xl:grid-cols-2 py-8`}>
             {
               sectionData.keys?.map((key) => <KeyDefinition key={JSON.stringify(key.keyCodes)} keyData={key}/>)
             }

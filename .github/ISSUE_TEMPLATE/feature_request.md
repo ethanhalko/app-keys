@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an application to support
 title: "[REQUEST]"
-labels: ''
+labels: request
 assignees: ''
 
 ---

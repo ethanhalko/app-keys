@@ -16,7 +16,7 @@ export default function Page({params}: { params: { app: string } }) {
 
   useEffect(() => {
     const query = searchParams.get('os');
-    setOs(query || (/(Mac|iPhone|iPod|iPad)/i.test(navigator.platform) ? 'mac' : 'windows'));
+    setOs(query || (/(Mac|iPhone|iPod|iPad)/i.test(navigator.userAgent) ? 'mac' : 'windows'));
   }, [setOs, searchParams]);
 
   function setOsQuery(isWindows: boolean) {

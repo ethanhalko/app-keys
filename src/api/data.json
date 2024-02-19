@@ -361,5 +361,824 @@
         ]
       }
     ]
+  },
+  {
+    "id": 2,
+    "name": "Chrome",
+    "organization": "Google",
+    "description": "lorem ipsum, etc",
+    "logo": "google_chrome_logo.png",
+    "sections": [
+      {
+        "name": "Tabs & Windows",
+        "keys": [
+          {
+            "description": "Open a new window",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "n"
+              ],
+              "windows": [
+                "ctrl",
+                "n"
+              ]
+            }
+          },
+          {
+            "description": "Open a new tab",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "t"
+              ],
+              "windows": [
+                "ctrl",
+                "t"
+              ]
+            }
+          },
+          {
+            "description": "Close current tab",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "w"
+              ],
+              "windows": [
+                "ctrl",
+                "w"
+              ]
+            }
+          },
+          {
+            "description": "Reopen closed tab",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "t"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "t"
+              ]
+            }
+          },
+          {
+            "description": "Switch to the next tab",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "opt",
+                "right_arrow"
+              ],
+              "windows": [
+                "ctrl",
+                "tab"
+              ]
+            }
+          },
+          {
+            "description": "Switch to the previous tab",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "opt",
+                "left_arrow"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "tab"
+              ]
+            }
+          },
+          {
+            "description": "Open Chrome's history page",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "y"
+              ],
+              "windows": [
+                "ctrl",
+                "h"
+              ]
+            }
+          },
+          {
+            "description": "Reload the current page",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "r"
+              ],
+              "windows": [
+                "ctrl",
+                "r"
+              ]
+            }
+          },
+          {
+            "description": "Open Chrome's Developer Tools",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "opt",
+                "i"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "i"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Illustrator",
+    "organization": "Adobe",
+    "logo": "adobe_illustrator_logo.png",
+    "sections": [
+      {
+        "name": "File Operations",
+        "keys": [
+          {
+            "description": "New Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "n"
+              ],
+              "windows": [
+                "ctrl",
+                "n"
+              ]
+            }
+          },
+          {
+            "description": "Open Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "o"
+              ],
+              "windows": [
+                "ctrl",
+                "o"
+              ]
+            }
+          },
+          {
+            "description": "Save Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "s"
+              ],
+              "windows": [
+                "ctrl",
+                "s"
+              ]
+            }
+          },
+          {
+            "description": "Close Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "W"
+              ],
+              "windows": [
+                "ctrl",
+                "W"
+              ]
+            }
+          },
+          {
+            "description": "Export Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "s"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "s"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Edit",
+        "keys": [
+          {
+            "description": "Undo",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "z"
+              ],
+              "windows": [
+                "ctrl",
+                "z"
+              ]
+            }
+          },
+          {
+            "description": "Redo",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "z"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "z"
+              ]
+            }
+          },
+          {
+            "description": "Cut",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "x"
+              ],
+              "windows": [
+                "ctrl",
+                "x"
+              ]
+            }
+          },
+          {
+            "description": "Copy",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "c"
+              ],
+              "windows": [
+                "ctrl",
+                "c"
+              ]
+            }
+          },
+          {
+            "description": "Paste",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "v"
+              ],
+              "windows": [
+                "ctrl",
+                "v"
+              ]
+            }
+          },
+          {
+            "description": "Select All",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "a"
+              ],
+              "windows": [
+                "ctrl",
+                "a"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "View",
+        "keys": [
+          {
+            "description": "Fit Artboard in Window",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "0"
+              ],
+              "windows": [
+                "ctrl",
+                "0"
+              ]
+            }
+          },
+          {
+            "description": "Zoom In",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "+"
+              ],
+              "windows": [
+                "ctrl",
+                "+"
+              ]
+            }
+          },
+          {
+            "description": "Zoom Out",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "-"
+              ],
+              "windows": [
+                "ctrl",
+                "-"
+              ]
+            }
+          },
+          {
+            "description": "Actual Size",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "1"
+              ],
+              "windows": [
+                "ctrl",
+                "1"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Selection",
+        "keys": [
+          {
+            "description": "Deselect",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "a"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "a"
+              ]
+            }
+          },
+          {
+            "description": "Select Next Object",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "]["
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "]"
+              ]
+            }
+          },
+          {
+            "description": "Select Previous Object",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "["
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "["
+              ]
+            }
+          },
+          {
+            "description": "Select All on Active Artboard",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "opt",
+                "a"
+              ],
+              "windows": [
+                "ctrl",
+                "alt",
+                "a"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "keys": [
+          {
+            "description": "Direct Selection Tool",
+            "keyCodes": {
+              "mac": [
+                "a"
+              ],
+              "windows": [
+                "a"
+              ]
+            }
+          },
+          {
+            "description": "Selection Tool",
+            "keyCodes": {
+              "mac": [
+                "v"
+              ],
+              "windows": [
+                "v"
+              ]
+            }
+          },
+          {
+            "description": "Pen Tool",
+            "keyCodes": {
+              "mac": [
+                "p"
+              ],
+              "windows": [
+                "p"
+              ]
+            }
+          },
+          {
+            "description": "Type Tool",
+            "keyCodes": {
+              "mac": [
+                "t"
+              ],
+              "windows": [
+                "t"
+              ]
+            }
+          },
+          {
+            "description": "Zoom Tool",
+            "keyCodes": {
+              "mac": [
+                "z"
+              ],
+              "windows": [
+                "z"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Photoshop",
+    "organization": "Adobe",
+    "logo": "adobe_photoshop_logo.png",
+    "sections": [
+      {
+        "name": "File Operations",
+        "keys": [
+          {
+            "description": "New Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "n"
+              ],
+              "windows": [
+                "ctrl",
+                "n"
+              ]
+            }
+          },
+          {
+            "description": "Open Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "o"
+              ],
+              "windows": [
+                "ctrl",
+                "o"
+              ]
+            }
+          },
+          {
+            "description": "Save Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "s"
+              ],
+              "windows": [
+                "ctrl",
+                "s"
+              ]
+            }
+          },
+          {
+            "description": "Close Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "w"
+              ],
+              "windows": [
+                "ctrl",
+                "w"
+              ]
+            }
+          },
+          {
+            "description": "Export Document",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "s"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "s"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Edit",
+        "keys": [
+          {
+            "description": "Undo",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "z"
+              ],
+              "windows": [
+                "ctrl",
+                "z"
+              ]
+            }
+          },
+          {
+            "description": "Redo",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "z"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "z"
+              ]
+            }
+          },
+          {
+            "description": "Cut",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "x"
+              ],
+              "windows": [
+                "ctrl",
+                "x"
+              ]
+            }
+          },
+          {
+            "description": "Copy",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "c"
+              ],
+              "windows": [
+                "ctrl",
+                "c"
+              ]
+            }
+          },
+          {
+            "description": "Paste",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "v"
+              ],
+              "windows": [
+                "ctrl",
+                "v"
+              ]
+            }
+          },
+          {
+            "description": "Select All",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "a"
+              ],
+              "windows": [
+                "ctrl",
+                "a"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "View",
+        "keys": [
+          {
+            "description": "Fit on Screen",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "0"
+              ],
+              "windows": [
+                "ctrl",
+                "0"
+              ]
+            }
+          },
+          {
+            "description": "Actual Pixels",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "opt",
+                "0"
+              ],
+              "windows": [
+                "ctrl",
+                "alt",
+                "0"
+              ]
+            }
+          },
+          {
+            "description": "Zoom In",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "+"
+              ],
+              "windows": [
+                "ctrl",
+                "+"
+              ]
+            }
+          },
+          {
+            "description": "Zoom Out",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "-"
+              ],
+              "windows": [
+                "ctrl",
+                "-"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Layers",
+        "keys": [
+          {
+            "description": "New Layer",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "n"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "n"
+              ]
+            }
+          },
+          {
+            "description": "Merge Down",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "e"
+              ],
+              "windows": [
+                "ctrl",
+                "e"
+              ]
+            }
+          },
+          {
+            "description": "Merge Visible",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "shift",
+                "e"
+              ],
+              "windows": [
+                "ctrl",
+                "shift",
+                "e"
+              ]
+            }
+          },
+          {
+            "description": "Group Layers",
+            "keyCodes": {
+              "mac": [
+                "cmd",
+                "g"
+              ],
+              "windows": [
+                "ctrl",
+                "g"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "keys": [
+          {
+            "description": "Move Tool",
+            "keyCodes": {
+              "mac": [
+                "v"
+              ],
+              "windows": [
+                "v"
+              ]
+            }
+          },
+          {
+            "description": "Brush Tool",
+            "keyCodes": {
+              "mac": [
+                "b"
+              ],
+              "windows": [
+                "b"
+              ]
+            }
+          },
+          {
+            "description": "Eraser Tool",
+            "keyCodes": {
+              "mac": [
+                "e"
+              ],
+              "windows": [
+                "e"
+              ]
+            }
+          },
+          {
+            "description": "Zoom Tool",
+            "keyCodes": {
+              "mac": [
+                "z"
+              ],
+              "windows": [
+                "z"
+              ]
+            }
+          }
+        ]
+      }
+    ]
   }
 ]

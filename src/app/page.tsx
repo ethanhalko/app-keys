@@ -10,6 +10,7 @@ import AppIcon from '@/app/ui/AppIcon';
 export default function Home() {
   const data = index() || {} as App;
 
+  const placeholders = new Array(8 - data.length).fill('').map(i => <PlaceholderIcon key={i}/>);
   return (
     <>
       <section className={'header flex flex-col w-full border-b border-neutral-400 h-36'}>
@@ -23,7 +24,7 @@ export default function Home() {
       <section className={'my-12 flex items-center'}>
         <p className={'text-9xl my-auto'}>(</p>
         <div>
-          <p className={'my-auto tracking-widest text-sm font-light text-neutral-700 text-center leading-7 mt-2 mx-3'}>
+          <p className={'my-auto tracking-wider md:tracking-widest text-xs sm:text-sm font-light text-neutral-700 text-center leading-7 mt-2 mx-3'}>
             This is a placeholder landing page.
             <br/>This site is extremely under development.
             <br/>Come back later if you want.
@@ -37,13 +38,9 @@ export default function Home() {
           {
             data.map((app) => <AppIcon key={app.id} app={app}/>)
           }
-          <PlaceholderIcon/>
-          <PlaceholderIcon/>
-          <PlaceholderIcon/>
-          <PlaceholderIcon/>
-          <PlaceholderIcon/>
-          <PlaceholderIcon/>
-          <PlaceholderIcon/>
+          {
+            placeholders.map(p => p)
+          }
         </ul>
       </section>
     </>

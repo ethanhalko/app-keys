@@ -15,7 +15,7 @@ export default function RootLayout({children}: Readonly<{ children: React.ReactN
     <html lang="en">
     <body className={roboto.className}>
     <main className="flex min-h-screen">
-      <div className={'bg-neutral-100 mx-auto shadow-lg w-full sm:w-11/12 lg:w-5/6 xl:w-2/3 min-w-[75%] flex flex-col items-center px-8 pt-8 relative'}>
+      <div className={'bg-neutral-100 mx-auto shadow-lg w-full sm:w-11/12 lg:w-5/6 xl:w-2/3 min-w-[75%] flex flex-col items-center px-4 sm:px-8 pt-8 relative'}>
         {children}
         <div className={'flex flex-col mx-auto mt-auto pt-12 pb-2'}>
           <Link href={'https://github.com/ethanhalko/app-keys'} className={'mx-auto'} title={'Link to Github Repository'}>
